@@ -17,6 +17,8 @@ Tech Stack
 Project initialize
 ---
 
+Configure your database here: [application.properties](./src/main/resources/application.properties) and [flyway.conf](./src/main/resources/flyway.conf)
+
 1. Install dependencies
 
 ```bash

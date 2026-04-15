@@ -40,11 +40,11 @@ mvn spring-boot:run
 API endpoints
 ---
 
-| Method | Endpoint        | Request Parameter | Description                           |
-| ------ | --------------- | ----------------- | ------------------------------------- |
-| POST   | /hibernate      | total             | Batch insert using JPA                |
-| POST   | /jdbc           | total             | Batch insert using JDBC               |
-| POST   | /jdbc-threading | total             | JDBC batch insert with multithreading |
+| Method | Endpoint                    | Request Parameter | Description                           |
+| ------ | --------------------------- | ----------------- | ------------------------------------- |
+| POST   | /api/product/hibernate      | total             | Batch insert using JPA                |
+| POST   | /api/product/jdbc           | total             | Batch insert using JDBC               |
+| POST   | /api/product/jdbc-threading | total             | JDBC batch insert with multithreading |
 
 HTTP Client
 ---

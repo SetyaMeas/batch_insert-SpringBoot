@@ -1,0 +1,10 @@
+@baseURL = http://localhost:8080/api/product
+
+### Hibernate
+POST {{baseURL}}/hibernate?total=30000
+
+### JDBC
+POST {{baseURL}}/jdbc?total=30000
+
+### JDBC Threading Insert
+POST {{baseURL}}/jdbc+threading?total=30000

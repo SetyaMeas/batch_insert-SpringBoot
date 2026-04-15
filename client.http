@@ -6,5 +6,5 @@ POST {{baseURL}}/hibernate?total=30000
 ### JDBC
 POST {{baseURL}}/jdbc?total=30000
 
-### JDBC Threading Insert
-POST {{baseURL}}/jdbc+threading?total=30000
+### JDBC with Multi Threading
+POST {{baseURL}}/jdbc-threading?total=30000
